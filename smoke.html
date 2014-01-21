@@ -12,7 +12,7 @@
   <textarea cols="20" rows="5"></textarea>
   
   <script>
-    document.addEventListener('WebComponentsReady', function() {
+    document.addEventListener('polymer-ready', function() {
       var pfile = document.querySelector('polymer-file');
       pfile.blob = new Blob(['abc123'], {type: 'text/plain'});
       //pfile.auto = true;
